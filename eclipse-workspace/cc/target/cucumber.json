@@ -1,0 +1,90 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8301032352,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Search functionality",
+        "description": "",
+        "id": "amazon-tests;search-functionality",
+        "after": [
+          {
+            "result": {
+              "duration": 128765178,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "user is on homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User enters \"wooden spoons\" in searchbox",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"wooden spoons\"",
+                  "offset": 12
+                }
+              ],
+              "location": "HomePageStepDefs.user_enters_in_searchbox(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should see search results in results page",
+            "match": {
+              "location": "HomePageStepDefs.user_should_see_search_results_in_results_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ui"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Amazon Tests",
+    "description": "",
+    "id": "amazon-tests",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/ui.feature",
+    "tags": []
+  }
+]
