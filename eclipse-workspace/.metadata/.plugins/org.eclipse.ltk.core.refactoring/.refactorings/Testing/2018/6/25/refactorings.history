@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;selenium-maven-utomation/src/test/java/com.dice&apos;&#x0A;- Original project: &apos;Testing&apos;&#x0A;- Destination element: &apos;selenium-maven-utomation/src/test/java/com.dice&apos;&#x0A;- Original elements:&#x0A;     test.Unit.java&#x0A;     test.UnitTest.java&#x0A;- Update references to refactored element" description="Move compilation units" destination="=selenium-maven-utomation/src\/test\/java&lt;com.dice" element1="/src&lt;test{Unit.java" element2="/src&lt;test{UnitTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1529453604680" units="2" version="1.0"/>
+</session>

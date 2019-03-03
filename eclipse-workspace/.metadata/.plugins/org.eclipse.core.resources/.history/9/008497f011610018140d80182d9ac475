@@ -1,0 +1,9 @@
+package casting2;
+
+public class BadCasting {
+
+	public static void main(String[] args) {
+		Person p1 = new Person();
+	}
+
+}

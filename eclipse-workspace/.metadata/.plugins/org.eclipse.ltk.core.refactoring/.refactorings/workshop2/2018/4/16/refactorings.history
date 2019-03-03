@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;examples.HowToReverseWordInArray&apos; to &apos;HowToReverseWord&apos;&#x0A;- Original project: &apos;workshop2&apos;&#x0A;- Original element: &apos;examples.HowToReverseWordInArray&apos;&#x0A;- Renamed element: &apos;examples.HowToReverseWord&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;HowToReverseWordInArray&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;examples{HowToReverseWordInArray.java[HowToReverseWordInArray" matchStrategy="1" name="HowToReverseWord" qualified="false" references="true" similarDeclarations="false" stamp="1523981500097" textual="false" version="1.0"/>
+</session>

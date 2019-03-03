@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" parallel="none">
+	<parameter name="properties" value="Test.properties" />
+	<test name="Put your test name here">
+		<classes>
+
+			<class name="Put your class name here" />
+		</classes>
+
+	</test>

@@ -1,0 +1,152 @@
+package tests;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class HeadlessHilton {
+	
+	public static void main(String[] args) throws Exception{
+        System.setProperty("webdriver.chrome.driver",
+                "/Users/fcelikaslan/Documents/selenium dependencies/drivers/chromedriver");
+        ChromeOptions options = new ChromeOptions();
+        
+        options.addArguments("headless");
+        
+        options.addArguments("window-size=1200x600");
+        
+        WebDriver driver = new ChromeDriver(options);
+
+//driver.manage().window().fullscreen();
+		
+//		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+//		
+//		driver.manage().deleteAllCookies();
+
+		String filePath = "/Users/fcelikaslan/Desktop/Login.xlsx";
+		
+		FileInputStream fis = new FileInputStream(filePath);
+		
+		Workbook workbook = WorkbookFactory.create(fis);
+		
+		Sheet worksheet = workbook.getSheetAt(0);
+		
+		Row row = worksheet.getRow(1);
+		
+		Cell cellTest = row.getCell(0);
+		
+		Cell cellOne = row.getCell(1);
+		
+		Cell cellTwo = row.getCell(2);
+		
+		int rowsCount = worksheet.getPhysicalNumberOfRows()-1;
+		
+		List<String> listTest = new ArrayList<String>();
+		
+		List<String> listOne = new ArrayList<String>();
+		
+		List<String> listTwo = new ArrayList<String>();
+		
+		for (int rowNum = 1; rowNum <= rowsCount; rowNum++) {
+			
+			row = worksheet.getRow(rowNum);
+			
+			cellTest = row.getCell(0);
+			
+			cellOne = row.getCell(1);
+			
+			cellTwo = row.getCell(2);
+			
+			listTest.add(cellTest.toString());
+			
+			listOne.add(cellOne.toString());
+			
+			listTwo.add(cellTwo.toString());
+			
+		}
+		System.out.println(listTest);
+		System.out.println(listOne);
+		System.out.println(listTwo);
+		
+		System.out.println(listTest.get(0));
+		
+		
+		
+		int j = 0;
+		
+		int k = 0;
+		
+		int l = 0;
+		
+		for (int i = 0; i < rowsCount; i++) {
+			
+			if(listTest.get(l).equalsIgnoreCase("Y") ) {
+			
+			driver.get("https://hilton.com");
+			
+			String str1 = listOne.get(j);
+			
+			String str2 = listTwo.get(k);
+			
+			driver.findElement(By.id("sign_in")).click();
+			
+			driver.findElement(By.id("username")).sendKeys(str1);
+			
+			driver.findElement(By.id("password")).sendKeys(str2);
+			
+			driver.findElement(By.xpath("//*[@id='formSignIn']/p[5]/a/span")).click();
+			
+			TakesScreenshot ts = (TakesScreenshot) driver;
+	        
+	        File source = ts.getScreenshotAs(OutputType.FILE);
+	        
+	        String dest1 = "/Users/fcelikaslan/Desktop/SSHOT/HeadlessScreenshot";
+	        
+	        String dest2 = ".png";
+	        
+	        String dest = dest1+i+dest2;
+	        
+	        File destination = new File(dest);
+	        
+	        FileUtils.copyFile(source, destination);
+			
+			j++;
+			
+			k++;
+			
+			l++;
+			
+				
+				continue;
+				
+			} else {
+				
+				break;
+			}
+
+		
+		}
+		workbook.close();
+		
+		fis.close();
+		
+		driver.close();
+		
+	}
+
+}

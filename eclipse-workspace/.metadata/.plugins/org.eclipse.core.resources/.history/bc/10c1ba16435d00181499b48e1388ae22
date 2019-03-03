@@ -1,0 +1,24 @@
+package question;
+
+public class Multiplication extends Question{
+
+
+
+	public Multiplication(String questionType, String operator) {
+		super("Multiplication", "*");
+		this.operand1 = RandomNumber.getRandomInteger(r);
+		this.operand2 = RandomNumber.getRandomInteger(r);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calc() {
+		calculated = true;
+	}
+	public String toString() {
+		if(calculated = false) {
+			return operand1+"+"+operand2+"=";
+		}else return operand1+"+"+operand2+"="+answer;
+	}
+
+}

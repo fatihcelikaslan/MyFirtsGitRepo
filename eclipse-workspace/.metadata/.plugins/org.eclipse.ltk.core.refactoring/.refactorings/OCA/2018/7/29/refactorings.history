@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;OCA&apos; to &apos;aaaaa/src&apos;&#x0A;- Original project: &apos;OCA&apos;&#x0A;- Destination element: &apos;aaaaa/src&apos;&#x0A;- Original element: &apos;OCA/src/OCA&apos;&#x0A;- Update references to refactored element" description="Move package" destination="=aaaaa/src" element1="/src&lt;OCA" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1531862409277" version="1.0"/>
+</session>

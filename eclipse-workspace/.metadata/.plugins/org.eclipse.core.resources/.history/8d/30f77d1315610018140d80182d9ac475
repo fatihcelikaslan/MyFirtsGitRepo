@@ -1,0 +1,33 @@
+package casting;
+
+public class BadCasting {
+
+	public static void main(String[] args) {
+		
+		//when super type refecerence to sub type object, classcatexception will occur
+		// this room is for engineers, not for all person
+		
+		// you don`t know what is behind the door unless you open it!!!
+		
+//		Person p1 = new Person();
+//		Engineer e1 = (Engineer) p1;
+		Object o = new Object();
+		String s = (String) o;
+		
+		Person p2 = new Engineer("Ali", 33, 22344); // this room is for engineers
+		Engineer e2 = (Engineer) p2;
+		
+		Object t = new Person();
+		
+		boolean b1 = t instanceof Person ;
+		System.out.println(b1);
+		
+		
+		
+		
+		{
+			
+		}
+	}
+
+}

@@ -6,7 +6,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 4956929358,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp()"
@@ -20,7 +21,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 86553116,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -69,7 +71,7 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@temp"
           }
         ]
       }
@@ -88,86 +90,8 @@
         "before": [
           {
             "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "Checkboxes example on practice web page",
-        "description": "",
-        "id": "some-examples;checkboxes-example-on-practice-web-page",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 5,
-            "name": "User navigates to heroku homepage",
-            "match": {
-              "location": "CheckBoxStepDefs.user_navigates_to_heroku_homepage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "clicks to Checkboxes",
-            "match": {
-              "location": "CheckBoxStepDefs.clicks_to_Checkboxes()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "check the first box",
-            "match": {
-              "location": "CheckBoxStepDefs.check_the_first_box()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "uncheck the second box",
-            "match": {
-              "location": "CheckBoxStepDefs.uncheck_the_second_box()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@cb"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
+              "duration": 1912474554,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.setUp()"
@@ -181,7 +105,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 81933914,
+              "status": "passed"
             },
             "match": {
               "location": "Hooks.tearDown(Scenario)"
@@ -193,7 +118,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 154386770,
+              "status": "passed"
             },
             "line": 12,
             "name": "User navigates to heroku homepage",
@@ -204,7 +130,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 194965127,
+              "status": "passed"
             },
             "line": 13,
             "name": "clicks to File Download",
@@ -215,7 +142,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 112504648,
+              "status": "passed"
             },
             "line": 14,
             "name": "Clicks Selena.txt to download",
@@ -228,74 +156,9 @@
         "tags": [
           {
             "name": "@dl"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 17,
-        "name": "",
-        "description": "Drag and drop example on practice web page",
-        "id": "some-examples;",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 19,
-            "name": "User navigates to heroku homepage",
-            "match": {
-              "location": "CheckBoxStepDefs.user_navigates_to_heroku_homepage()"
-            },
-            "keyword": "Given "
           },
           {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 20,
-            "name": "clicks to Drag and Drop link",
-            "match": {
-              "location": "CheckBoxStepDefs.clicks_to_Drag_and_Drop_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 21,
-            "name": "Moves A onto B",
-            "match": {
-              "location": "CheckBoxStepDefs.moves_A_onto_B()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@drag"
+            "name": "@temp"
           }
         ]
       }
@@ -305,83 +168,6 @@
     "id": "some-examples",
     "keyword": "Feature",
     "uri": "src/test/resources/com/features/ui_features/herokutests.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 3,
-        "name": "HOMEPAGE FUNCTIONALITY",
-        "description": "",
-        "id": "ui-test;homepage-functionality",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "Hooks.tearDown(Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "User goes to homepage",
-            "match": {},
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "he enter valid credentials",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 7,
-            "name": "clicks login",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "welcome user should be seen",
-            "match": {},
-            "keyword": "And "
-          }
-        ]
-      }
-    ],
-    "name": "UI test",
-    "description": "",
-    "id": "ui-test",
-    "keyword": "Feature",
-    "uri": "src/test/resources/com/features/ui_features/mecit.feature",
     "tags": []
   }
 ]

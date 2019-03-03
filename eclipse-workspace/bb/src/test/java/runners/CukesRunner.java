@@ -14,11 +14,11 @@ import cucumber.api.junit.Cucumber;
 				"json:target/cucumber.json"
 				
 		},
-//		tags="@temp",
+		tags="@temp",
 		features="src/test/resources/com/features/ui_features",
 //		features="src/test/resources/com/mypage2/db/features",
 		glue="step_definitions"
-		,dryRun=true
+//		,dryRun=true
 		
 		
 		

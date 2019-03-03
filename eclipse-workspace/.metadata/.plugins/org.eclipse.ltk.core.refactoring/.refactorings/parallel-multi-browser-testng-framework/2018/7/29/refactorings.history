@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;parallel-multi-browser-testng-framework/estng_runner.xml&apos; to &apos;testng_runner.xml&apos;" description="Rename resource &apos;estng_runner.xml&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="estng_runner.xml" name="testng_runner.xml" stamp="1531872958916" updateReferences="true"/>
+</session>

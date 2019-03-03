@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 packages to &apos;ImageProcessing/src&apos;&#x0A;- Original project: &apos;DoWhileDemo&apos;&#x0A;- Destination element: &apos;ImageProcessing/src&apos;&#x0A;- Original elements:&#x0A;     DoWhileDemo/src/DoWhileDemo&#x0A;     DoWhileDemo/src/BankAccount&#x0A;- Update references to refactored element" description="Move packages" destination="=ImageProcessing/src" element1="/src&lt;DoWhileDemo" element2="/src&lt;BankAccount" flags="589830" fragments="2" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1531859462004" version="1.0"/>
+</session>

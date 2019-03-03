@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;regression_runner.xml&apos; to &apos;KFF_Project&apos;&#x0A;- Original project: &apos;final-testng-framework&apos;&#x0A;- Destination element: &apos;KFF_Project&apos;&#x0A;- Original element: &apos;regression_runner.xml&apos;" description="Copy file" destination="=KFF_Project" element1="regression_runner.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1533597267028" units="0" version="1.0"/>
+</session>

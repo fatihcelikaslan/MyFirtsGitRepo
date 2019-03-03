@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="/Users/fcelikaslan/Downloads/PageObjectModel-master"/>
+			<item value="/Users/fcelikaslan/Downloads/CucumberSeleniumFramework-master"/>
+			<item value="/Users/fcelikaslan/Downloads/awesome-microservices-master"/>
+			<item value="/Users/fcelikaslan/Downloads/cucumber-acceptance-tests-master 3"/>
+			<item value="/Users/fcelikaslan/Downloads/wordpress-automation_Starter"/>
+			<item value="/Users/fcelikaslan/Downloads/Cybertek_bnb_Project-master"/>
+			<item value="/Users/fcelikaslan/Downloads/cucumber-acceptance-tests-master"/>
+			<item value="/Users/fcelikaslan/Downloads/ReviewSessionsCode-master"/>
+			<item value="/Users/fcelikaslan/Downloads/JDBC_starter"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/delbarkff"/>
+			<item value="/Users/fcelikaslan/Desktop/KFF_Project"/>
+			<item value="/Users/fcelikaslan/Downloads/KFF_Project"/>
+			<item value="/Users/fcelikaslan/Downloads/KFF_Project 2"/>
+			<item value="/Users/fcelikaslan/Downloads/KFF_Project-workingbranch"/>
+			<item value="/Users/fcelikaslan/Downloads/cucumber-testng-automation-master 2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="/Users/fcelikaslan/eclipse-workspace/cc/pom.xml"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/Sample_Projects/src/examples/RemoveDuplicates.java"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/mykff2"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/mykff"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/"/>
+			<item value="/Users/fcelikaslan/Downloads/final-testng-framework-master 4"/>
+			<item value="/Users/fcelikaslan/Downloads/first-cucumber-project-master"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/PropertyFileProjects/src/warmup/ConfigLoader2.java"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/nyt/pom.xml"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/2016OlympicMedals"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/PrestaShopAutomationPractice/src/test/java/com/prestashop/tests"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/selenium-maven-utomation/src/test/java/com/dice/TestNGDemo.java"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/selenium-maven-utomation/src/test/java/com/dice/PorscheWithMethod.java"/>
+			<item value="/Users/fcelikaslan/eclipse-workspace/Order/src/com/weborder/order2.java"/>
+			<item value="/Users/fcelikaslan/testing-maven/first-maven-app/target"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="kk.kkk"/>
+		</list>
+		<list key="groupId">
+			<item value="kk"/>
+		</list>
+		<list key="artifactId">
+			<item value="kkk"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="727" key="width"/>
+		<item value="477" key="x"/>
+		<item value="225" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+</section>

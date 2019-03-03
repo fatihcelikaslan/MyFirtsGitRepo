@@ -1,0 +1,26 @@
+package question;
+
+public class Subtraction extends Question{
+
+	
+
+	public Subtraction(String questionType, String operator) {
+		super("Subtraction", "-");
+		this.operand1 = RandomNumber.getRandomInteger(10);
+		this.operand2 = RandomNumber.getRandomInteger(5);
+		if(operand1<operand2) {
+			int t = operand1;
+			operand1 = operand2;
+			operand2 = t;
+		}
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calc() {
+		calculated = true;
+		// TODO Auto-generated method stub
+	
+	}
+
+}

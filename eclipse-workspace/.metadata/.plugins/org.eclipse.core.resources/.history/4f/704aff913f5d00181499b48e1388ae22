@@ -1,0 +1,21 @@
+package question;
+
+public class Addition extends Question{
+
+	
+
+	public Addition(String questionType, String operator) {
+		super("Addition", "+");
+		this.operand1 = RandomNumber.getRandomInteger(5);
+		this.operand2 = RandomNumber.getRandomInteger(10);
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calc() {
+		calculated = true;
+		// TODO Auto-generated method stub
+		
+	}
+
+}

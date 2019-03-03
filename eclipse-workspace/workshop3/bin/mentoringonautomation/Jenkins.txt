@@ -1,0 +1,45 @@
+pipeline {
+    agent any
+
+    stages {
+        stage ('Initialize') {
+            steps {
+                bat '''
+                    echo "PATH = ${PATH}"
+                    echo "M2_HOME = ${M2_HOME}"
+                '''
+            }
+        }
+
+        stage('Clean'){
+          steps {
+            bat 'mvn -Dmaven.test.failure.ignore=true clean'
+            }
+        }
+
+        stage('Test') {
+            steps {
+                bat 'mvn -Dmaven.test.failure.ignore=true test -Dplatform=ios '
+            }
+            post {
+                success {
+                    junit 'test-results/**/*.xml'
+                }
+
+                always{
+                    // publish html
+                    // snippet generator doesn't include "target:"
+                    // https://issues.jenkins-ci.org/browse/JENKINS-29711.
+                    publishHTML (target: [
+                          allowMissing: false,
+                          alwaysLinkToLastBuild: false,
+                          keepAll: true,
+                          reportDir: '',
+                          reportFiles: 'dashboard.htm',
+                          reportName: "Dashboard"
+                        ])
+                }
+            }
+        }
+    }
+}

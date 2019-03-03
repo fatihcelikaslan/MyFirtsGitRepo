@@ -23,6 +23,7 @@ public class Hooks {
 		Driver.getDriver().manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 //		Driver.getDriver().manage().window().fullscreen();
 		Driver.getDriver().get(ConfigurationReader.getProperty("url1"));
+		Driver.getDriver().manage().deleteAllCookies();
 //		bu.setSpeed(100000);
 	}
 	@Ignore

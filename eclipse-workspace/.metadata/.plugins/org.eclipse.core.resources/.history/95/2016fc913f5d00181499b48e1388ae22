@@ -1,0 +1,27 @@
+package question;
+
+public class Division extends Question{
+
+	
+
+	public Division(String questionType, String operator) {
+		super("Division", "/");
+		this.operand1 = RandomNumber.getRandomInteger(20);
+		this.operand2 = RandomNumber.getRandomInteger(10);
+		if(operand1<operand2) {
+			int t = operand1;
+			operand1 = operand2;
+			operand2 = t;
+		}
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calc() {
+		calculated = true;
+		// TODO Auto-generated method stub
+		
+		
+	}
+
+}

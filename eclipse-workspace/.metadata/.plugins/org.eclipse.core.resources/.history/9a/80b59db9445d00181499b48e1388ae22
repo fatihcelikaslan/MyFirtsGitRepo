@@ -1,0 +1,29 @@
+package question;
+
+public class Division extends Question{
+
+	
+
+	public Division(Range r) {
+		super("Division", "/");
+		this.operand1 = RandomNumber.getRandomInteger(r);
+		this.operand2 = RandomNumber.getRandomInteger(r);
+		if(operand1<operand2) {
+			int t = operand1;
+			operand1 = operand2;
+			operand2 = t;
+		}
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public void calc() {
+		calculated = true;
+	}
+	public String toString() {
+		if(calculated == false) {
+			return operand1+"+"+operand2+"=";
+		}else return operand1+"+"+operand2+"="+answer;
+	}
+
+}

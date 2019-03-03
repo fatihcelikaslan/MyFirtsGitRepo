@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3001" started-at="2018-07-11T02:00:53Z" finished-at="2018-07-11T02:00:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3001" started-at="2018-07-11T02:00:53Z" finished-at="2018-07-11T02:00:56Z">
+      <class name="com.automationpractice.PropertyTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.automationpractice.PropertyTests@7d9d1a19]" name="setUp" is-config="true" duration-ms="1816" started-at="2018-07-11T02:00:53Z" finished-at="2018-07-11T02:00:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testProperty()[pri:0, instance:com.automationpractice.PropertyTests@7d9d1a19]" name="testProperty" duration-ms="1169" started-at="2018-07-11T02:00:54Z" finished-at="2018-07-11T02:00:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProperty -->
+      </class> <!-- com.automationpractice.PropertyTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

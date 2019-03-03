@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;workshop.nmbv&apos; to &apos;ReversinSoMuch&apos;&#x0A;- Original project: &apos;workshop&apos;&#x0A;- Original element: &apos;workshop.nmbv&apos;&#x0A;- Renamed element: &apos;workshop.ReversinSoMuch&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;nmbv&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;workshop{nmbv.java[nmbv" matchStrategy="1" name="ReversinSoMuch" qualified="false" references="true" similarDeclarations="false" stamp="1524259573663" textual="false" version="1.0"/>
+</session>

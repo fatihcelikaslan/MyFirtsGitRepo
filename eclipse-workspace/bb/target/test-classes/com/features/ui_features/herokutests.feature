@@ -7,7 +7,7 @@ And clicks to Checkboxes
 Then check the first box
 And uncheck the second box
 
-@dl
+@dl @temp
 Scenario: Download example on practice web page
 Given User navigates to heroku homepage
 And clicks to File Download

@@ -1,0 +1,14 @@
+/**
+ * Generates Range of (min,max) 
+ */
+package question;
+
+public class Range {
+	/**
+	 * The purpose of this class to use in project to use numbers in certain range.
+		TODO:
+		Add 2 encapsulated instance int variables min and max
+		Create public getter and setter methods
+		Create a constructor with 2 int arguments and assign values to min and max
+	 */
+}

@@ -1,0 +1,37 @@
+/**
+ * Generates Range of (min,max) 
+ */
+package question;
+
+public class Range {
+	/**
+	 * The purpose of this class to use in project to use numbers in certain range.
+		TODO:
+		Add 2 encapsulated instance int variables min and max
+		Create public getter and setter methods
+		Create a constructor with 2 int arguments and assign values to min and max
+	 */
+	private Range min;
+	private Range max;
+	
+	public Range getMin() {
+		return min;
+	}
+	public void setMin(Range min) {
+		this.min = min;
+	}
+	public Range getMax() {
+		return max;
+	}
+	public void setMax(Range max) {
+		this.max = max;
+	}
+	public Range(Range min, Range max) {
+		super();
+		this.min = min;
+		this.max = max;
+	}
+	
+	
+	
+}
